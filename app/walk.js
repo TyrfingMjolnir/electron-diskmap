@@ -35,6 +35,10 @@ var walk = function(dir, dirCB, fileCB, done) {
 
 window.addEventListener("load", function() {
     walk("/Users",
+//    walk("/home",
+//    walk("/opt/dev",
+//    walk("/opt/local/dev",
+//    walk("/usr/src",
     	function(dir) {
             writeDir(dir);
     	},
