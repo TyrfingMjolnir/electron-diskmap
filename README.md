@@ -16,3 +16,5 @@ open /opt/dev/electron-diskmap/elek-darwin-x64/
 ```
 
 Double click the icon, the app launches, to modify the root of the walk edit the following line: https://github.com/TyrfingMjolnir/electron-diskmap/blob/master/app/walk.js#L37
+
+The app takes a while to quit though... is this normal? intentional? Or just the way JS works?
