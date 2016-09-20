@@ -34,7 +34,8 @@ var walk = function(dir, dirCB, fileCB, done) {
 };
 
 window.addEventListener("load", function() {
-    walk("/Users",
+    walk("/tmp",
+//    walk("/Users",
 //    walk("/home",
 //    walk("/opt/dev",
 //    walk("/opt/local/dev",
