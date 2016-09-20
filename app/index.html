@@ -36,13 +36,23 @@ var treemap = d3.layout.treemap()
     .value(function(d) { return d.size; });
 
 var div, node;
-
-div = d3.select("body").append("div")
-	.style("position", "relative")
-	.style("width", (c.w) + "px")
-	.style("height", (c.h) + "px")
-	.style("left", 0 + "px")
-	.style("top", 0 + "px");
+div = d3.select("body")
+  .append("header")
+    .style("position", "relative")
+    .style("width", (c.w) + "px")
+    .style("height", "50px")
+    .style("left", 0 + "px")
+    .style("top", 0 + "px")
+  .append("form")
+  .append("select")
+  .append("option").text('test');
+div = d3.select("body")
+  .append("div")
+    .style("position", "relative")
+    .style("width", (c.w) + "px")
+    .style("height", (c.h) + "px")
+    .style("left", 0 + "px")
+    .style("top", 0 + "px");
 
 function tree() {
 	d3.selectAll(".node").remove();
