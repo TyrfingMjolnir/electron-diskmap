@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "d3": "^3.5.10",
+    "d3": "*",
     "electron-packager": "^5.1.1",
     "electron-prebuilt": "^0.36.0"
   }
