@@ -4,7 +4,7 @@ Mostly just a skeleton repo for future projects; includes build scripts for cros
 
 ![alt text](gdm.gif)
 
-This is how I downloaded and compiled this skeleton app; it all appears to work fine, apart from the path on a Mac.
+This is how I downloaded and compiled this skeleton app.
 
 `cd /opt/dev/`
 
@@ -18,4 +18,4 @@ This is how I downloaded and compiled this skeleton app; it all appears to work 
 
 `open /opt/dev/electron-diskmap/elek-darwin-x64/`
 
-Double click the icon, the app launches, obviously the path to the drive is not set to "/" aka root OoTB
+Double click the icon, the app launches, to modify the root of the walk edit the following line: https://github.com/TyrfingMjolnir/electron-diskmap/blob/master/app/walk.js#L37
