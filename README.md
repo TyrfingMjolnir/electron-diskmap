@@ -8,10 +8,15 @@ This is how I downloaded and compiled this skeleton app; it all appears to work 
 ``
 
 `cd /opt/dev/`
+
 `git clone https://github.com/kirjavascript/electron-diskmap.git`
+
 `cd electron-diskmap`
+
 `npm i`
+
 `./darwin.sh`
+
 `open /opt/dev/electron-diskmap/elek-darwin-x64/`
 
 ``
